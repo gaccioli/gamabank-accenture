@@ -1,48 +1,96 @@
-# 🏦 Gama Bank 💲 Verde de dinheiro
+<img width="1000px" src="https://user-images.githubusercontent.com/60127869/111917427-ba2cf700-8a5e-11eb-93bc-c31199ad069e.png">
 
-<p align="center">
-  <img src="https://media.tenor.com/images/63dc70b43a949617fdfa3447868d534d/tenor.gif" alt="Hulk Smart"/>
-</p>
+<br>
 
-Nosso momento é de cada vez mais aprender sobre como administrar nosso patriminio pois como diz o ditado "não tá facil pra ninguém", não é mesmo ? Sendo assim, queremos começar não só querer cuidar do nosso dinheiro, mas do seu também. Criamos a Gama Bank para ser uma fintech diferente e que seja acima de tudo capaz de transformar a vida das pessoas e suas carreiras (sacoou?)
+# 🏦 HelloBank ||| Invista em você
 
-## Nosso time, seu projeto de vida !
+<br>
 
+<img src="https://miro.medium.com/max/2400/1*zdaj_q66kjXS8rygZ7hOEw.gif"/>
+
+<br>
+
+<br>
+
+<p>
+Nosso momento é de cada vez mais aprender sobre como administrar nosso patrimônio pois como diz o ditado "não tá facil pra ninguém", não é mesmo ? Sendo assim, queremos começar não só querer cuidar do nosso dinheiro, mas do seu também. Criamos a HelloBank para ser uma fintech diferente e que seja acima de tudo capaz de transformar a vida das pessoas e suas carreiras. </p>
+
+<p>
 Ainda estamos em desenvolvimento e você juntamente com seu time deverão ser capazes de construir nosso MVP (Minimo Produto Viavel) e garantir que possamos disponibilizar para o time de frontend a implementação dessa solução, que para nós, será um divisor de aguas na sua carreira (sacoou?)
+</p>
+<br>
 
-## Objetivo
-Construir uma aplicação web, utilizando Node.js e todas as bibliotecas e tecnologias que aprendemos durante o curso (você é livre para substitui-lás mas fica por sua conta e risco, ok ?) e disponibiliza-las em um servidor em cloud com acesso irrestrito por zona ou por horario.
+## 📌 Objetivos e desafios
 
+O projeto HelloBank foi desenvolvido durante o decorrer do treinamento em Node.js oferecido pela Accenture, por intermédio da academia Gama. Foram utilizadas tecnologias de banco de dados MySQL, inúmeras bibliotecas de Node e uma arquitetura de projeto MVC. Dentre as atribuições do projeto, constavam:
 
-## Artefatos e entregaveis
-* Disponibilização de uma API com deverá conter toda a aplicação e todas as suas rotas
-* Disponibilização de uma pagina contendo a documentação dos recursos e as regras para execução dos mesmos
-* Board projeto: [recomendamos o nosso template no trello](https://trello.com/b/omMyz2qd/projeto-gamabank)
-* Fork deste repositório contendo:
-    * Instruções de Instalação e operação
-    * Detalhamento das funcionalidades
-    * Membros envolvidos no projeto com seus perfis do github associados
-    * Link para acesso ao repositório publicado em nuvem.
+- Construção e deploy de uma API completa
+- Criação e manutenção de um banco de dados SQL que administre os dados da aplicação
+- Permitir o cadastro de novos clientes e suas respectivas contas
+- Permitir o login desses usuários cadastrados
+- Os usuários devem ser capazes de realizar as seguintes operações:
+  - Depósitos
+  - Transferências (envio e recebimento)
+  - Pagamentos com cartão de débito
+  - Pagamentos com cartão de crédito
+  - Parcelamento de compras no crédito
+  - Consulta de faturas em aberto
+  - Pagamento das faturas
+  - Leitura de extrato bancário
+- Envio automatizado de email aos clientes
 
+<br>
 
-## Orientações
-- Aplique as boas praticas de desenvolvimento, lembrese de temas como DRY e KISS
-- Tenha sempre testes unitários  no seu projeto.
-
-
-## Critérios de aceite
-1. Entregou a API Backend devidade documentada 
-2. Cadastrou usúarios com as respectivas contas
-3. Realizou transferencia entre conta existes e/ou inexistentes
-4. Realizou lançamentos de compras feitas com crédito e débito
-5. Realizou envio de email confirmando o lançamento de crédito ou débito para o email do usuario
-6. Exibiu o extrato bancário e fatura de crédito
+## 🌐 Live Version
 
 
+https://gamabank-accenture.herokuapp.com/
 
+<br>
 
+## 🚀 Tecnologias e metodologias utilizadas
 
+<br>
 
+### Tecnologias
 
+- Javascript
+- MySQL
+- NodeJs
+- Npm
+- Aws - RDS
+- HTML & CSS
+- Heroku
+- Café ☕ 
 
+### Metodologias
 
+- Padrão de arquitetura Model View Controller (MVC)
+- Metodologia Kanban
+
+### Dependências
+
+- hapi
+- bcrypt
+- dotenv
+- hapi-swagger
+- joi
+- json-web-token
+- mysql
+- nodemailer
+- chai
+- chai-as-promised
+- cross-env
+- faker
+- mocha
+
+<br>
+
+## 👨‍💻 Nossa equipe
+
+- **[Paulo Telles](https://github.com/paulotelles)**
+- **[Bernardo Aragão](https://github.com/HDBenosx10)**
+- **[Matheus Cardoso](https://github.com/lupus-magnus)**
+- **[Helena Rangel](https://github.com/helenarangel)**
+- **[Márcio Esteves](https://github.com/marciohesteveslopes)**
+- **[Gabriel Accioli](https://github.com/gaccioli)**

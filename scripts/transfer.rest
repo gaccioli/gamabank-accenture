@@ -1,0 +1,24 @@
+POST http://localhost:3001/user/transfer HTTP/1.1
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hdGhldXNjYXJkb3NvMUBnbWFpbC5jb20iLCJpYXQiOjE2MTYzNjY4OTIsImV4cCI6MTYxNzIzMDg5Mn0.M6Qr6UCarxBQOImpwodmx10CAMju26Izit5zHMe1GvE
+
+{
+    "destinyAccount": 1,
+    "value": 1,
+    "CPF": "01196253854",
+    "description": "Só tô transferindo porque sou obrigado."
+}
+
+###
+POST http://localhost:3001/user/transfer HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "destinyAccount": 7,
+    "bank": 999,
+    "originAccount": 6969420,
+    "value": 1000000,
+    "CPF": "33808409711"
+}
+
